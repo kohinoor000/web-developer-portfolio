@@ -49,7 +49,7 @@ nav a{
 .banner-content{
     width: 500px;
 }
-img{
+.chandan{
     width: 400px;
     height: 450px;
 }
@@ -108,10 +108,64 @@ main{
 .info-description{
 margin-top: 3px;
 }
+
+/* skills related style */
 .section-description{
-    padding: 30px 130px;
+    padding: 20px 270px;
+}
+.skill-container{
+    display: flex;
+    gap: 20px;
+}
+.skill{
+    padding: 25px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 15px 40px 0px rgb(0,0,0,0.06);
 }
 img{
     width: 35px;
     height: 35px;
+    margin-bottom: 0;
+}
+.skills-title{
+
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+.skill-description{
+   padding: 10px;
+    margin-top: 3px;
+    color: gray;
+}
+
+/*   my resume summary    */
+
+.resume-column-title{
+    color: #474747;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-bottom:30px;
+}
+.resume-container{
+    display:flex ;
+    gap: 40px;
+    margin-left: 40px;
+}
+.resume-item-title{
+    color: #474747;
+    margin-bottom: 0px;
+    font-family:monospace;
+}
+.resume-institute{
+  color: #757575;
+  font-size: 19px;
+  margin-top: 6px;
+}
+.resume-information{
+    color: #757575;
+}
+.download{
+    text-align:center;
+    margin-top: 50px;
 }
