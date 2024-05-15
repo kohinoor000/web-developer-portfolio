@@ -1,5 +1,8 @@
 .header{
    background-color: #fff8f3;
+   /* background-image: url("../images/developer.jpg");
+   background-repeat: no-repeat;
+   background-position: bottom left; */
 }
 /* nav related style */
 nav{
@@ -41,8 +44,46 @@ nav a{
     padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    width: 500px;
 }
 img{
-    width: 450px;
-    height: 400px;
+    width: 400px;
+    height: 450px;
+}
+.greeting{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #474747;
+    margin-bottom: 0;
+}
+.name{
+    font-size: 45px;
+    font-family:cursive;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+.description{
+    margin-top: 5px;
+
+}
+
+/* main section style */
+.about{
+    padding: 130px;
+    border-radius: 5px;
+    background-color:#fff8f3 ;
+    margin:130px  0;
+}
+.section-title{
+    color: #181818;
+    font-size: 30px;
+    text-align: center;
+}
+.about-me{
+    color: #757575;
+    text-align: center;
+    font-family: sans-serif;
 }
