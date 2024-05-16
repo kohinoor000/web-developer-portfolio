@@ -35,7 +35,7 @@ nav a{
     padding: 15px 30px;
     border-radius: 5px;
     background-color:orange;
-    border: 0;
+    border: 0px;
     color: white;
     font-size: 20px;
    /* font-weight:700; */
@@ -85,7 +85,7 @@ main{
 }
 .section-title{
     color: #181818;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
 }
 .about-me{
@@ -108,6 +108,9 @@ main{
 .info-description{
 margin-top: 3px;
 }
+/* section{
+    background-color: #fff8f3;
+} */
 
 /* skills related style */
 .section-description{
@@ -169,3 +172,32 @@ img{
     text-align:center;
     margin-top: 50px;
 }
+/* footer style */
+
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: #fff8f3;
+    padding: 100px 150px;
+    margin-top: 50px;
+}
+.fav-link a{
+   margin-right: 15px;
+}
+.image{
+   width: 20px;
+   height: 20px;
+}
+.footer-column{
+  width: 50%;
+}
+.contact{
+    display: block;
+   margin-bottom: 24px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background-color: #FFF;
+  border: 0px;
+  width: 100%;
+} 
